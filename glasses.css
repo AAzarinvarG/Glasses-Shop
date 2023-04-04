@@ -22,3 +22,16 @@
     margin-left: 6rem;
     border-radius: 10px;
 }
+
+#welcome-txt {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: T1;
+}
+
+@font-face {
+    font-family: T1;
+    src: url(Lalezar-Regular.ttf);
+}
