@@ -84,6 +84,13 @@
     background-color: #ccc; 
 }
 
+#title-versace {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 10px 10px #000;
+    font-family: T1;
+}
+
 /* media style */
 @media (max-width: 1240px) {}
 
