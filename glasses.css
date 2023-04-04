@@ -91,7 +91,7 @@
 
 #glasses-versace {
     width: 14rem;
-    height: 45vh;
+    height: 50vh;
     background: #fff;
     margin: 2rem 1rem;
     box-shadow: 0 1px 15px #ccc;
@@ -101,6 +101,13 @@
 
 #glasses-versace-img {
     width: 14rem;
+}
+
+#description-glasses-versace {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'T1';
+    padding: 0 2px;
 }
 
 /* media style */
