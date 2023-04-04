@@ -109,6 +109,12 @@
     padding: 0 2px;
 }
 
+#glasses-versace-price {
+    font-size: 1.4rem;
+    margin: 0 0.8rem;
+    font-family: 'T1';
+}
+
 /* media style */
 @media (max-width: 1240px) {}
 
