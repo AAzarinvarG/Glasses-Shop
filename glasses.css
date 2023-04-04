@@ -98,6 +98,10 @@
     border-radius: 10px;
 }
 
+#glasses-versace-img {
+    width: 14rem;
+}
+
 /* media style */
 @media (max-width: 1240px) {}
 
