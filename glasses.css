@@ -100,6 +100,11 @@
 
 #glasses-versace-img {
     width: 14rem;
+    transition: 1s;
+}
+
+#glasses-versace-img:hover {
+    transform: scale(120%);
 }
 
 #description-glasses-versace {
