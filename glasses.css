@@ -91,11 +91,12 @@
 
 #glasses-versace {
     width: 14rem;
-    height: 40vh;
+    height: 45vh;
     background: #fff;
     margin: 2rem 1rem;
     box-shadow: 0 1px 15px #ccc;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 #glasses-versace-img {
