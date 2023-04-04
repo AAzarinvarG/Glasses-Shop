@@ -65,3 +65,8 @@
     background-color: #fff;
     color: black;
 }
+
+#place-text-desc-btn {
+    transition: 1s;
+    margin-top: -25rem;
+}
