@@ -16,7 +16,7 @@
 
 #place-basic-description {
     width: 55vh;
-    height: 45vh;
+    height: 44vh;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 5px 10px 3.5rem rgb(255, 240, 219);
     margin-left: 6rem;
@@ -78,10 +78,10 @@
 }
 
 #place-total-glasses {
-    width: 100%; 
+    width: 100%;
 }
 
-#title-versace {
+#title-glasses {
     font-size: 3rem;
     text-align: center;
     text-shadow: 0 10px 10px #000;
@@ -89,11 +89,16 @@
     opacity: 0.6;
 }
 
+#place-versace-glasses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #glasses-versace {
     width: 14rem;
     height: 50vh;
     background: #fff;
-    margin: 2rem 1rem;
+    margin: 1rem 0.8rem;
     box-shadow: 0 1px 15px #ccc;
     border-radius: 10px;
 }
@@ -143,10 +148,133 @@
 }
 
 /* media style */
-@media (max-width: 1240px) {}
+@media (max-width: 1296px) {
 
-@media (max-width: 992px) {}
+    #container {
+        max-width: 960px;
+    }
 
-@media (max-width: 768px) {}
+    #glasses-versace {
+        width: 12rem;
+        height: 48vh;
+        margin: 1rem 1.2rem;
+    }
 
-@media (max-width: 576px) {}
+    #glasses-versace-img {
+        width: 12rem;
+    }
+
+    #btn-add-to-basket-versace {
+        margin-top: -7px;
+    }
+
+    #glasses-versace-price {
+        margin: 13px 0.8rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #container {
+        max-width: 720px;
+    }
+
+    #glasses-versace {
+        margin: 1rem 1rem;
+    }
+
+    #header-first-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    #place-basic-description {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #container {
+        max-width: 540px;
+    }
+
+    #glasses-versace {
+        width: 13rem;
+        height: 48vh;
+        margin: 1rem 1.4rem;
+    }
+
+    #glasses-versace-img {
+        width: 13rem;
+    }
+
+    #glasses-versace-price {
+        margin: -2px 0.8rem;
+    }
+
+    #btn-add-to-basket-versace {
+        margin-top: 1px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #container {
+        max-width: 100%;
+    }
+
+    #glasses-versace {
+        width: 15rem;
+        height: 49.9vh;
+    }
+
+    #glasses-versace-img {
+        width: 15rem;
+    }
+
+    #place-versace-glasses {
+        justify-content: center;
+    }
+
+    #place-text-desc-btn {
+        margin-top: -30rem;
+    }
+
+    #place-basic-description {
+        width: 41vh;
+        height: 52vh;
+    }
+
+    #btn-buyGlasses {
+        width: 36vh;
+    }
+
+}
+
+@media (max-width: 420px) {
+    #place-basic-description {
+        width: 30vh;
+        height: 53vh;
+    }
+
+    #welcome-txt {
+        font-size: 1.5rem;
+    }
+
+    #description {
+        font-size: 1.4rem;
+        margin: 1.2rem 2.5rem;
+    }
+
+    #btn-buyGlasses {
+        width: 25vh;
+    }
+
+    #place-text-desc-btn {
+        margin-top: -31rem;
+    }
+}
