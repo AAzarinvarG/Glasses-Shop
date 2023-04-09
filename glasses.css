@@ -232,6 +232,16 @@
         margin: 13px 0.8rem;
     }
 
+    #glasses-dior {
+        width: 12rem;
+        height: 32.5vh;
+        margin: 1rem 1.2rem;
+    }
+
+    #glasses-dior-img {
+        width: 12rem;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -251,6 +261,10 @@
 
     #place-basic-description {
         margin-left: 0;
+    }
+
+    #glasses-dior {
+        margin: 1rem 1.1rem;
     }
 
 }
@@ -277,6 +291,16 @@
 
     #btn-add-to-basket-versace {
         margin-top: 1px;
+    }
+
+    #glasses-dior {
+        width: 13rem;
+        height: 33.6vh;
+        margin: 1rem 1.4rem;
+    }
+
+    #glasses-dior-img {
+        width: 13rem;
     }
 
 }
@@ -311,6 +335,19 @@
 
     #btn-buyGlasses {
         width: 36vh;
+    }
+
+    #place-dior-glasses {
+        justify-content: center;
+    }
+
+    #glasses-dior {
+        width: 15rem;
+        height: 33.2vh;
+    }
+
+    #glasses-dior-img {
+        width: 15rem;
     }
 
 }
