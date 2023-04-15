@@ -207,6 +207,65 @@
     color: #fff;
 }
 
+#place-prada-glasses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#glasses-prada{
+    width: 14rem;
+    height: 48.4vh;
+    background: #fff;
+    margin: 1rem 0.8rem;
+    box-shadow: 0 1px 15px #ccc;
+    border-radius: 10px;
+}
+
+#header-image-prada{
+    overflow: hidden;
+}
+
+#glasses-prada-img{
+    width: 14rem;
+    transition: 1s;
+}
+
+#glasses-prada-img:hover {
+    transform: scale(130%);
+}
+
+#description-glasses-prada{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'T1';
+    padding: 0 2px;
+    margin-top: 0.5rem;
+}
+
+#glasses-prada-price{
+    font-size: 1.4rem;
+    margin: 0 0.8rem;
+    font-family: 'T1';
+}
+
+#btn-add-to-basket-prada{
+    width: 100%;
+    height: 3.5vh;
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    transition: 0.5s;
+    background: #F1F1F1;
+    font-size: 1rem;
+    font-family: T1;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#btn-add-to-basket-prada:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 /* media style */
 @media (max-width: 1296px) {
 
