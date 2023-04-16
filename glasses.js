@@ -3,6 +3,7 @@ const $ = document;
 let placeTextDescBtn = $.querySelector('#place-text-desc-btn');
 let placeVersaceGlasses = $.querySelector('#place-versace-glasses');
 let placeDiorGlasses = $.querySelector('#place-dior-glasses');
+let placePradaGlasses = $.querySelector('#place-prada-glasses');
 let btnBuyGlasses = $.querySelector('#btn-buyGlasses');
 
 window.addEventListener('load', () => {
@@ -27,6 +28,14 @@ let diorGlassesArray = [
     {img: 'images/glassesDior3.webp', price: '506$'},
     {img: 'images/glassesDior4.avif', price: '890$'},
     {img: 'images/glassesDior5.webp', price: '230$'},
+]
+
+let pradaGlassesArray = [
+    {img: 'images/glassesPrada1.jpg', price: '349$'},
+    {img: 'images/glassesPrada2.jpg', price: '890$'},
+    {img: 'images/glassesPrada3.webp', price: '315$'},
+    {img: 'images/glassesPrada4.avif', price: '670$'},
+    {img: 'images/glassesPrada5.avif', price: '937$'},
 ]
 
 versaceGlassesArray.forEach((item) => {
@@ -58,4 +67,18 @@ diorGlassesArray.forEach((item) => {
                                                             <p id="glasses-dior-price"> ${item.price} </p>
                                                             <button id="btn-add-to-basket-dior"> add to basket </button>
                                                        </div>`);
+});
+
+pradaGlassesArray.forEach((item) => {
+    placePradaGlasses.insertAdjacentHTML('beforeend', ` <div id="glasses-prada">
+                                                            <div id="header-image-prada">
+                                                                <img id="glasses-prada-img" src="${item.img}" alt="">
+                                                            </div>
+                                                            <p id="description-glasses-prada">
+                                                                Beautiful colored Versace glasses with excellent quality
+                                                                You can buy it from the button below
+                                                            </p>
+                                                            <p id="glasses-prada-price"> ${item.price} </p>
+                                                            <button id="btn-add-to-basket-prada"> add to basket </button>
+                                                        </div>`);
 });
