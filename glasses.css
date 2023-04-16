@@ -301,6 +301,23 @@
         width: 12rem;
     }
 
+    #glasses-prada {
+        width: 12rem;
+        height: 45.8vh;
+        margin: 1rem 1.2rem;
+    }
+
+    #glasses-prada-img {
+        width: 12rem;
+    }
+
+    #btn-add-to-basket-prada {
+        margin-top: -7px;
+    }
+
+    #glasses-prada-price {
+        margin: 13px 0.8rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -310,7 +327,7 @@
     }
 
     #glasses-versace {
-        margin: 1rem 1rem;
+        margin: 1rem 1.1rem;
     }
 
     #header-first-image {
@@ -323,6 +340,10 @@
     }
 
     #glasses-dior {
+        margin: 1rem 1.1rem;
+    }
+
+    #glasses-prada { 
         margin: 1rem 1.1rem;
     }
 
@@ -360,6 +381,24 @@
 
     #glasses-dior-img {
         width: 13rem;
+    }
+
+    #glasses-prada {
+        width: 13rem;
+        height: 45.5vh;
+        margin: 1rem 1.4rem;
+    }
+
+    #glasses-prada-img {
+        width: 13rem;
+    }
+
+    #glasses-prada-price {
+        margin: -2px 0.8rem;
+    }
+
+    #btn-add-to-basket-prada {
+        margin-top: 1px;
     }
 
 }
@@ -407,6 +446,23 @@
 
     #glasses-dior-img {
         width: 15rem;
+    }
+
+    #glasses-prada {
+        width: 15rem;
+        height: 48.1vh;
+    }
+
+    #btn-add-to-basket-prada {
+        margin-top: 11px;
+    }
+
+    #glasses-prada-img {
+        width: 15rem;
+    }
+
+    #place-prada-glasses {
+        justify-content: center;
     }
 
 }
