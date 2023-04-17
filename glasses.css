@@ -180,7 +180,7 @@
     font-family: 'T1';
     padding: 0 2px;
     margin-top: 0.5rem;
-    
+
 }
 
 #glasses-dior-price {
@@ -207,12 +207,12 @@
     color: #fff;
 }
 
-#place-prada-glasses{
+#place-prada-glasses {
     display: flex;
     flex-wrap: wrap;
 }
 
-#glasses-prada{
+#glasses-prada {
     width: 14rem;
     height: 48.4vh;
     background: #fff;
@@ -221,11 +221,11 @@
     border-radius: 10px;
 }
 
-#header-image-prada{
+#header-image-prada {
     overflow: hidden;
 }
 
-#glasses-prada-img{
+#glasses-prada-img {
     width: 14rem;
     transition: 1s;
 }
@@ -234,7 +234,7 @@
     transform: scale(130%);
 }
 
-#description-glasses-prada{
+#description-glasses-prada {
     text-align: center;
     font-size: 1rem;
     font-family: 'T1';
@@ -242,13 +242,13 @@
     margin-top: 0.5rem;
 }
 
-#glasses-prada-price{
+#glasses-prada-price {
     font-size: 1.4rem;
     margin: 0 0.8rem;
     font-family: 'T1';
 }
 
-#btn-add-to-basket-prada{
+#btn-add-to-basket-prada {
     width: 100%;
     height: 3.5vh;
     border: 0;
@@ -274,6 +274,20 @@
     position: fixed;
     right: 10px;
     bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-scrollToTop:hover #iconScrollToTop {
+    transform: translateY(-7px);
+}
+
+#iconScrollToTop {
+    width: 6vh;
+    height: 6vh;
+    color: white;
+    transition: 0.5s;
 }
 
 footer {
@@ -422,7 +436,7 @@ footer {
         margin: 1rem 1.1rem;
     }
 
-    #glasses-prada { 
+    #glasses-prada {
         margin: 1rem 1.1rem;
     }
 
