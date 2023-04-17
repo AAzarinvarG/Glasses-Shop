@@ -291,6 +291,18 @@ footer {
     src: url(Righteous-Regular.ttf);
 }
 
+#logo-insta {
+    width: 5vh;
+    height: 5vh;
+    color: white;
+}
+
+#logo-whatsapp {
+    width: 5vh;
+    height: 5vh;
+    color: white;
+}
+
 /* media style */
 @media (max-width: 1296px) {
 
