@@ -5,6 +5,19 @@ let placeVersaceGlasses = $.querySelector('#place-versace-glasses');
 let placeDiorGlasses = $.querySelector('#place-dior-glasses');
 let placePradaGlasses = $.querySelector('#place-prada-glasses');
 let btnBuyGlasses = $.querySelector('#btn-buyGlasses');
+let btnScrollToTop = $.querySelector('#btn-scrollToTop');
+
+document.addEventListener('scroll', function () {
+    if (document.documentElement.scrollTop > 1000) {
+        btnScrollToTop.style.right = '10px';
+    } else {
+        btnScrollToTop.style.right = '-4.8rem';
+    }
+});
+
+btnScrollToTop.addEventListener('click', () => {
+    window.scrollTo(0, 0);
+});
 
 btnBuyGlasses.addEventListener('click', () => {
     window.scrollTo(0, 965);
@@ -27,19 +40,19 @@ let versaceGlassesArray = [
 ]
 
 let diorGlassesArray = [
-    {img: 'images/glassesDior1.avif', price: '411$'},
-    {img: 'images/glassesDior2.avif', price: '110$'},
-    {img: 'images/glassesDior3.webp', price: '506$'},
-    {img: 'images/glassesDior4.avif', price: '890$'},
-    {img: 'images/glassesDior5.webp', price: '230$'},
+    { img: 'images/glassesDior1.avif', price: '411$' },
+    { img: 'images/glassesDior2.avif', price: '110$' },
+    { img: 'images/glassesDior3.webp', price: '506$' },
+    { img: 'images/glassesDior4.avif', price: '890$' },
+    { img: 'images/glassesDior5.webp', price: '230$' },
 ]
 
 let pradaGlassesArray = [
-    {img: 'images/glassesPrada1.jpg', price: '349$'},
-    {img: 'images/glassesPrada2.jpg', price: '890$'},
-    {img: 'images/glassesPrada3.webp', price: '315$'},
-    {img: 'images/glassesPrada4.avif', price: '670$'},
-    {img: 'images/glassesPrada5.avif', price: '937$'},
+    { img: 'images/glassesPrada1.jpg', price: '349$' },
+    { img: 'images/glassesPrada2.jpg', price: '890$' },
+    { img: 'images/glassesPrada3.webp', price: '315$' },
+    { img: 'images/glassesPrada4.avif', price: '670$' },
+    { img: 'images/glassesPrada5.avif', price: '937$' },
 ]
 
 versaceGlassesArray.forEach((item) => {
