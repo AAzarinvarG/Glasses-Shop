@@ -6,6 +6,10 @@ let placeDiorGlasses = $.querySelector('#place-dior-glasses');
 let placePradaGlasses = $.querySelector('#place-prada-glasses');
 let btnBuyGlasses = $.querySelector('#btn-buyGlasses');
 
+btnBuyGlasses.addEventListener('click', () => {
+    window.scrollTo(0, 965);
+});
+
 window.addEventListener('load', () => {
 
     setTimeout(() => {
@@ -56,7 +60,7 @@ versaceGlassesArray.forEach((item) => {
 
 
 diorGlassesArray.forEach((item) => {
-    
+
     placeDiorGlasses.insertAdjacentHTML('beforeend', ` <div id="glasses-dior">
                                                             <div id="header-image-dior-versace">
                                                                 <img id="glasses-dior-img" src="${item.img}" alt="">
@@ -68,11 +72,11 @@ diorGlassesArray.forEach((item) => {
                                                             <p id="glasses-dior-price"> ${item.price} </p>
                                                             <button id="btn-add-to-basket-dior"> add to basket </button>
                                                        </div>`);
-                                                       
+
 });
 
 pradaGlassesArray.forEach((item) => {
-    
+
     placePradaGlasses.insertAdjacentHTML('beforeend', ` <div id="glasses-prada">
                                                             <div id="header-image-prada">
                                                                 <img id="glasses-prada-img" src="${item.img}" alt="">
@@ -84,5 +88,5 @@ pradaGlassesArray.forEach((item) => {
                                                             <p id="glasses-prada-price"> ${item.price} </p>
                                                             <button id="btn-add-to-basket-prada"> add to basket </button>
                                                         </div>`);
-                                                        
+
 });
