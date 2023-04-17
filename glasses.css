@@ -274,16 +274,21 @@ footer {
     background-position: 0 27%;
 }
 
-#header-AAText {
-    width: 99vh;
+#header-AAText-socialMedia {
+    width: 198vh;
     height: 43vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#header-socialMedia {
-    width: 99vh;
-    height: 43vh;
-    background-color: rgba(0, 0, 0, 0.5);
+#header-AAText-socialMedia p {
+    color: white;
+    font-size: 2rem;
+    font-family: pInFo;
+}
+
+@font-face {
+    font-family: pInFo;
+    src: url(Righteous-Regular.ttf);
 }
 
 /* media style */
