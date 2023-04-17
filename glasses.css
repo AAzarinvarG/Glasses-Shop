@@ -266,6 +266,12 @@
     color: #fff;
 }
 
+footer {
+    height: 43vh;
+    display: flex;
+    background: cadetblue;
+}
+
 /* media style */
 @media (max-width: 1296px) {
 
