@@ -36,7 +36,7 @@
 
 @font-face {
     font-family: T1;
-    src: url(Lalezar-Regular.ttf);
+    src: url(font/Lalezar-Regular.ttf);
 }
 
 #description {
@@ -317,7 +317,7 @@ footer {
 
 @font-face {
     font-family: pInFo;
-    src: url(Righteous-Regular.ttf);
+    src: url(font/Righteous-Regular.ttf);
 }
 
 #logo-insta {
