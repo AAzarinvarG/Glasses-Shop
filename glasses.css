@@ -266,6 +266,16 @@
     color: #fff;
 }
 
+#btn-scrollToTop {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    right: 10px;
+    bottom: 1rem;
+}
+
 footer {
     height: 43vh;
     display: flex;
