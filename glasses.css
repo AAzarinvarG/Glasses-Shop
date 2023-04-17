@@ -272,11 +272,12 @@
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
-    right: 10px;
+    right: -4.8rem;
     bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s;
 }
 
 #btn-scrollToTop:hover #iconScrollToTop {
