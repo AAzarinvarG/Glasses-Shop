@@ -297,18 +297,42 @@ footer {
 
 #logo-insta {
     margin-top: 3rem;
-    margin-left: 8.8rem;
+    margin-left: 8.7rem;
     width: 5vh;
     height: 5vh;
     color: white;
+    animation: rotate360 3s linear infinite;
+}
+
+#logo-insta:hover {
+    cursor: pointer;
+    color: #A439A3;
+    animation: 0;
 }
 
 #logo-whatsapp {
     margin-top: 3rem;
-    margin-left: 10px;
+    margin-left: 20px;
     width: 5vh;
     height: 5vh;
     color: white;
+    animation: rotate360 3s linear infinite;
+}
+
+#logo-whatsapp:hover {
+    cursor: pointer;
+    color: #26D367;
+    animation: 0;
+}
+
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* media style */
