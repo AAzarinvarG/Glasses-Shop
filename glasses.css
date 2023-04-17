@@ -275,8 +275,10 @@ footer {
 }
 
 #header-AAText-socialMedia {
-    width: 198vh;
-    height: 43vh;
+    width: 40vh;
+    height: 36vh;
+    margin: 2.4rem 2rem;
+    border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -284,6 +286,8 @@ footer {
     color: white;
     font-size: 2rem;
     font-family: pInFo;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 @font-face {
@@ -292,12 +296,16 @@ footer {
 }
 
 #logo-insta {
+    margin-top: 3rem;
+    margin-left: 8.8rem;
     width: 5vh;
     height: 5vh;
     color: white;
 }
 
 #logo-whatsapp {
+    margin-top: 3rem;
+    margin-left: 10px;
     width: 5vh;
     height: 5vh;
     color: white;
