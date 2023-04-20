@@ -21,6 +21,7 @@
     top: 0;
     display: flex;
     justify-content: center;
+    transition: 0.5s;
 }
 
 #place-bagIcon-personIcon {
@@ -42,6 +43,22 @@
     border: 1px solid white;
     overflow: hidden;
     transition: 0.5s;
+}
+
+#bagIcon {
+    width: 3vh;
+    height: 3vh;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+}
+
+#personIcon {
+    width: 3vh;
+    height: 3vh;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 1.4rem;
 }
 
 #welcome-txt {
