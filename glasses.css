@@ -55,15 +55,26 @@
     width: 100%;
     height: 63vh;
     background-color: antiquewhite;
-    margin-top: 1r
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+#glasses-in-bag {
+    width: 90%;
+    height: 12vh;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 1rem;
+    border-radius: 7px;
 }
 
 #place-two-btn-totalPrice {
     width: 100%;
-    height: 18.6vh;
+    height: 18.5vh;
     background-color: aliceblue;
     border-radius: 0 0 10px 10px;
-    margin-top: 1.4px;
+    margin-top: 0.3px;
 }
 
 #place-basic-description {
