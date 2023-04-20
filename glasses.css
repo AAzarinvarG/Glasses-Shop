@@ -35,13 +35,20 @@
 
 #header-bag {
     width: 40vh;
-    height: 60vh;
+    height: 90vh;
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
-    top: 4rem;
+    top: 3rem;
     left: 3rem;
     border-radius: 10px;
     box-shadow: 1px 0px 50px white;
+}
+
+#title-in-bag {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
 }
 
 #place-basic-description {
