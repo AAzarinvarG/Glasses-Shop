@@ -99,8 +99,9 @@
 #price-in-glasses-in-bag {
     position: absolute;
     margin-left: 13.3rem;
-    margin-top: 5.9rem;
+    margin-top: 5.7rem;
     font-size: 1.5rem;
+    font-family: 'T1';
 }
 
 #glasses-in-bag ion-icon {
