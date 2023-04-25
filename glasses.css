@@ -125,6 +125,26 @@
     display: flex;
 }
 
+#clearAll-btn-in-bag {
+    width: 20vh;
+    height: 4.5vh;
+    border: 1px solid #DC3545;
+    margin-top: 1.8rem;
+    margin-left: 1.3rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-family: 'T1';
+    background-color: rgba(0,0,0, 0);
+    color: #DC3545;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#clearAll-btn-in-bag:hover {
+    background-color: #DC3545;
+    color: white;
+}
+
 #place-basic-description {
     width: 55vh;
     height: 44vh;
