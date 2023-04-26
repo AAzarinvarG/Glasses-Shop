@@ -9,9 +9,14 @@ let btnScrollToTop = $.querySelector('#btn-scrollToTop');
 let headerPlaceBagIconPersonIcon = $.querySelector('#header-place-bagIcon-personIcon');
 let bagIcon = $.querySelector('#bagIcon');
 let headerBag = $.querySelector('#header-bag');
+let closeIconHeaderBag = $.querySelector('#close-header-bag');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
+});
+
+closeIconHeaderBag.addEventListener('click', () => {
+    headerBag.style.left = '-24rem';
 });
 
 document.addEventListener('scroll', function () {
