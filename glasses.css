@@ -167,6 +167,7 @@
 
 #header-name-input-price-removeIcon-in-bag ion-icon:hover {
     color: red;
+    cursor: pointer;
 }
 
 #place-two-btn-totalPrice {
