@@ -98,7 +98,7 @@
     background-color: white;
     margin-left: 5%;
     margin-top: 1rem;
-    border-radius: 7px;
+    border-radius: 10px;
     display: flex;
 }
 
@@ -259,7 +259,6 @@
 }
 
 #btn-buyGlasses:hover {
-    border: 0;
     background-color: #fff;
     color: black;
 }
