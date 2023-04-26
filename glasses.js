@@ -7,6 +7,12 @@ let placePradaGlasses = $.querySelector('#place-prada-glasses');
 let btnBuyGlasses = $.querySelector('#btn-buyGlasses');
 let btnScrollToTop = $.querySelector('#btn-scrollToTop');
 let headerPlaceBagIconPersonIcon = $.querySelector('#header-place-bagIcon-personIcon');
+let bagIcon = $.querySelector('#bagIcon');
+let headerBag = $.querySelector('#header-bag');
+
+bagIcon.addEventListener('click', () => {
+    headerBag.style.left = '3rem';
+});
 
 document.addEventListener('scroll', function () {
     if (document.documentElement.scrollTop > 1000) {
