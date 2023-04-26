@@ -38,6 +38,22 @@
     border-radius: 5px;
 }
 
+#bagIcon {
+    width: 3vh;
+    height: 3vh;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+}
+
+#personIcon {
+    width: 3vh;
+    height: 3vh;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 1.4rem;
+}
+
 #header-bag {
     width: 40vh;
     height: 90vh;
@@ -208,20 +224,9 @@
     transition: 0.5s;
 }
 
-#bagIcon {
-    width: 3vh;
-    height: 3vh;
-    color: white;
-    margin-top: 0.3rem;
-    margin-left: 0.4rem;
-}
-
-#personIcon {
-    width: 3vh;
-    height: 3vh;
-    color: white;
-    margin-top: 0.3rem;
-    margin-left: 1.4rem;
+#place-text-desc-btn {
+    transition: 1s;
+    margin-top: -25rem;
 }
 
 #welcome-txt {
@@ -257,11 +262,6 @@
     border: 0;
     background-color: #fff;
     color: black;
-}
-
-#place-text-desc-btn {
-    transition: 1s;
-    margin-top: -25rem;
 }
 
 #container {
