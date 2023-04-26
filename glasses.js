@@ -13,6 +13,13 @@ let closeIconHeaderBag = $.querySelector('#close-header-bag');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
+
+        if (window.innerWidth < 480) {
+            headerBag.style.left = '1rem';
+        } else {
+            headerBag.style.left = '3rem';
+        }
+
 });
 
 closeIconHeaderBag.addEventListener('click', () => {
