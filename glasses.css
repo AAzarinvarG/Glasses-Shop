@@ -84,7 +84,8 @@
 
 #header-name-input-price-removeIcon-in-bag {
     width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #name-glasses-in-bag {
@@ -104,6 +105,24 @@
     font-size: 1.2rem;
     font-family: 'T1';
     padding-left: 3px;
+}
+
+#price-in-glasses-in-bag {
+    font-size: 2rem;
+    font-family: 'T1';
+    margin: 1.9rem 0.8rem;
+}
+
+#header-name-input-price-removeIcon-in-bag ion-icon {
+    width: 3.2vh;
+    height: 3.2vh;
+    margin-top: 2.3rem;
+    margin-left: 2.4rem;
+    transition: 0.5s;
+}
+
+#header-name-input-price-removeIcon-in-bag ion-icon:hover {
+    color: red;
 }
 
 #place-two-btn-totalPrice {
