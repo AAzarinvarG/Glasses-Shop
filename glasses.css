@@ -67,6 +67,20 @@
     transition: 1s;
 }
 
+#close-header-bag {
+    color: white;
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    margin-left: 20.7rem;
+    margin-top: 0.2rem;
+}
+
+#close-header-bag:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 #title-in-bag {
     font-size: 4rem;
     color: white;
