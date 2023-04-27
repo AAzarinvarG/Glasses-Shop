@@ -14,11 +14,11 @@ let closeIconHeaderBag = $.querySelector('#close-header-bag');
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
 
-        if (window.innerWidth < 480) {
-            headerBag.style.left = '1rem';
-        } else {
-            headerBag.style.left = '3rem';
-        }
+    if (window.innerWidth < 480) {
+        headerBag.style.left = '1rem';
+    } else {
+        headerBag.style.left = '3rem';
+    }
 
 });
 
@@ -57,27 +57,27 @@ window.addEventListener('load', () => {
 });
 
 let versaceGlassesArray = [
-    { img: 'images/glassesVersace1.avif', price: '230' },
-    { img: 'images/glassesVersace2.avif', price: '910' },
-    { img: 'images/glassesVersace3.avif', price: '460' },
-    { img: 'images/glassesVersace4.avif', price: '632' },
-    { img: 'images/glassesVersace5.avif', price: '110' },
+    { img: 'images/glassesVersace1.avif', price: '230', id: 1 },
+    { img: 'images/glassesVersace2.avif', price: '910', id: 2 },
+    { img: 'images/glassesVersace3.avif', price: '460', id: 3 },
+    { img: 'images/glassesVersace4.avif', price: '632', id: 4 },
+    { img: 'images/glassesVersace5.avif', price: '110', id: 5 },
 ]
 
 let diorGlassesArray = [
-    { img: 'images/glassesDior1.avif', price: '411' },
-    { img: 'images/glassesDior2.avif', price: '110' },
-    { img: 'images/glassesDior3.webp', price: '506' },
-    { img: 'images/glassesDior4.avif', price: '890' },
-    { img: 'images/glassesDior5.webp', price: '225' },
+    { img: 'images/glassesDior1.avif', price: '411', id: 1 },
+    { img: 'images/glassesDior2.avif', price: '110', id: 2 },
+    { img: 'images/glassesDior3.webp', price: '506', id: 3 },
+    { img: 'images/glassesDior4.avif', price: '890', id: 4 },
+    { img: 'images/glassesDior5.webp', price: '225', id: 5 },
 ]
 
 let pradaGlassesArray = [
-    { img: 'images/glassesPrada1.jpg', price: '349' },
-    { img: 'images/glassesPrada2.jpg', price: '898' },
-    { img: 'images/glassesPrada3.webp', price: '315' },
-    { img: 'images/glassesPrada4.avif', price: '670' },
-    { img: 'images/glassesPrada5.avif', price: '937' },
+    { img: 'images/glassesPrada1.jpg', price: '349', id: 1 },
+    { img: 'images/glassesPrada2.jpg', price: '898', id: 2 },
+    { img: 'images/glassesPrada3.webp', price: '315', id: 3 },
+    { img: 'images/glassesPrada4.avif', price: '670', id: 4 },
+    { img: 'images/glassesPrada5.avif', price: '937', id: 5 },
 ]
 
 versaceGlassesArray.forEach((item) => {
@@ -91,10 +91,14 @@ versaceGlassesArray.forEach((item) => {
                                                                     You can buy it from the button below
                                                                 </p>
                                                                 <p id="glasses-versace-price"> $${item.price} </p>
-                                                                <button id="btn-add-to-basket-versace"> add to basket </button>
+                                                                <button onclick="addToBag()" id="btn-add-to-basket-versace"> add to basket </button>
                                                            </div> `);
 
 });
+
+function addToBag() {
+
+}
 
 diorGlassesArray.forEach((item) => {
 
