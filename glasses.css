@@ -155,14 +155,15 @@
 #price-in-glasses-in-bag {
     font-size: 2rem;
     font-family: 'T1';
-    margin: 1.9rem 0.8rem;
+    margin-top: 1.9rem;
+    margin-left: 2rem;
 }
 
 #header-name-input-price-removeIcon-in-bag ion-icon {
-    width: 3.2vh;
-    height: 3.2vh;
-    margin-top: 2.3rem;
-    margin-left: 1.8rem;
+    width: 3.3vh;
+    height: 3.3vh;
+    margin-top: 2.2rem;
+    margin-left: 0.3rem;
     transition: 0.5s;
 }
 
