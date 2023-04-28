@@ -96,12 +96,17 @@ versaceGlassesArray.forEach((item) => {
 
 });
 
+let bagArray = [];
+
 function addToBag(Id) {
     let findGlasses = versaceGlassesArray.find((glasses) => {
         return glasses.id == Id;
     });
 
-    
+    if (!bagArray.includes(findGlasses)) {
+        bagArray.push(findGlasses);
+    }
+    console.log(bagArray);
 }
 
 diorGlassesArray.forEach((item) => {
