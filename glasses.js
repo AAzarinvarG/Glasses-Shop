@@ -91,14 +91,14 @@ versaceGlassesArray.forEach((item) => {
                                                                     You can buy it from the button below
                                                                 </p>
                                                                 <p id="glasses-versace-price"> $${item.price} </p>
-                                                                <button onclick="addToBag(${item.id})" id="btn-add-to-basket-versace"> add to basket </button>
+                                                                <button onclick="GlassesaddToBagArray(${item.id})" id="btn-add-to-basket-versace"> add to basket </button>
                                                            </div> `);
 
 });
 
 let bagArray = [];
 
-function addToBag(Id) {
+function GlassesaddToBagArray(Id) {
     let findGlasses = versaceGlassesArray.find((glasses) => {
         return glasses.id == Id;
     });
@@ -107,6 +107,11 @@ function addToBag(Id) {
         bagArray.push(findGlasses);
     }
     console.log(bagArray);
+    addToBag();
+}
+
+function addToBag() {
+    
 }
 
 diorGlassesArray.forEach((item) => {
