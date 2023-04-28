@@ -10,6 +10,7 @@ let headerPlaceBagIconPersonIcon = $.querySelector('#header-place-bagIcon-person
 let bagIcon = $.querySelector('#bagIcon');
 let headerBag = $.querySelector('#header-bag');
 let closeIconHeaderBag = $.querySelector('#close-header-bag');
+let placeGlassesInBag = $.querySelector('#place-glasses-in-bag');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
@@ -111,7 +112,22 @@ function GlassesaddToBagArray(Id) {
 }
 
 function addToBag() {
-    
+    placeGlassesInBag.innerHTML = '';
+
+    bagArray.forEach((item) => {
+        placeGlassesInBag.insertAdjacentHTML('beforeend', ` <div id="glasses-in-bag">
+                                                                <div id="header-img-glasses-in-bag">
+                                                                    <img src="${item.img}" alt="">
+                                                                </div>
+                                                                <div id="header-name-input-price-removeIcon-in-bag">
+                                                                    <p id="name-glasses-in-bag"> Dior Glasses </p>
+                                                                    <input type="number" value="1" min="1" max="3">
+                                                                    <ion-icon name="trash-outline"></ion-icon>
+                                                                    <p id="price-in-glasses-in-bag"> $${item.price} </p>
+                                                                </div>
+                                                            </div>`);
+    });
+
 }
 
 diorGlassesArray.forEach((item) => {
