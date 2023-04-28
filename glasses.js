@@ -11,6 +11,8 @@ let bagIcon = $.querySelector('#bagIcon');
 let headerBag = $.querySelector('#header-bag');
 let closeIconHeaderBag = $.querySelector('#close-header-bag');
 let placeGlassesInBag = $.querySelector('#place-glasses-in-bag');
+let container = $.querySelector('#container');
+let footer = $.querySelector('footer');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
@@ -21,10 +23,16 @@ bagIcon.addEventListener('click', () => {
         headerBag.style.left = '3rem';
     }
 
+    container.style.display = 'none';
+    footer.style.display = 'none';
+
 });
 
 closeIconHeaderBag.addEventListener('click', () => {
     headerBag.style.left = '-24rem';
+
+    container.style.display = 'block';
+    footer.style.display = 'flex';
 });
 
 document.addEventListener('scroll', function () {
