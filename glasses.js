@@ -92,20 +92,20 @@ versaceGlassesArray.forEach((item) => {
                                                                     You can buy it from the button below
                                                                 </p>
                                                                 <p id="glasses-versace-price"> $${item.price} </p>
-                                                                <button onclick="GlassesaddToBagArray(${item.id})" id="btn-add-to-basket-versace"> add to basket </button>
+                                                                <button onclick="GlassesaddToBagArray(${item.id}, versaceGlassesArray)" id="btn-add-to-basket-versace"> add to basket </button>
                                                            </div> `);
 
 });
 
 let bagArray = [];
 
-function GlassesaddToBagArray(Id) {
-    let findGlasses = versaceGlassesArray.find((glasses) => {
+function GlassesaddToBagArray(Id, ArrayName) {
+    let findVersaceGlasses = ArrayName.find((glasses) => {
         return glasses.id == Id;
     });
 
-    if (!bagArray.includes(findGlasses)) {
-        bagArray.push(findGlasses);
+    if (!bagArray.includes(findVersaceGlasses)) {
+        bagArray.push(findVersaceGlasses);
     }
     console.log(bagArray);
     addToBag();
@@ -141,7 +141,7 @@ diorGlassesArray.forEach((item) => {
                                                                 You can buy it from the button below
                                                             </p>
                                                             <p id="glasses-dior-price"> $${item.price} </p>
-                                                            <button id="btn-add-to-basket-dior"> add to basket </button>
+                                                            <button onclick="GlassesaddToBagArray(${item.id}, diorGlassesArray)" id="btn-add-to-basket-dior"> add to basket </button>
                                                        </div>`);
 
 });
@@ -157,7 +157,7 @@ pradaGlassesArray.forEach((item) => {
                                                                 You can buy it from the button below
                                                             </p>
                                                             <p id="glasses-prada-price"> $${item.price} </p>
-                                                            <button id="btn-add-to-basket-prada"> add to basket </button>
+                                                            <button onclick="GlassesaddToBagArray(${item.id}, pradaGlassesArray)" id="btn-add-to-basket-prada"> add to basket </button>
                                                         </div>`);
 
 });
