@@ -13,6 +13,7 @@ let closeIconHeaderBag = $.querySelector('#close-header-bag');
 let placeGlassesInBag = $.querySelector('#place-glasses-in-bag');
 let container = $.querySelector('#container');
 let footer = $.querySelector('footer');
+let totalPriceElemInBag = $.querySelector('#total-price-in-bag');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
@@ -117,6 +118,12 @@ function GlassesaddToBagArray(Id, ArrayName) {
     }
     console.log(bagArray);
     addToBag();
+
+    let totalPrice = bagArray.reduce((prev, next) => {
+        return prev + next.price;
+   }, 0);
+
+   totalPriceElemInBag.innerHTML = `$${totalPrice}`;
 }
 
 function addToBag() {
