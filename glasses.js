@@ -66,27 +66,27 @@ window.addEventListener('load', () => {
 });
 
 let versaceGlassesArray = [
-    { img: 'images/glassesVersace1.avif', price: '230', id: 1, name: 'Versace Glasses' },
-    { img: 'images/glassesVersace2.avif', price: '910', id: 2, name: 'Versace Glasses' },
-    { img: 'images/glassesVersace3.avif', price: '460', id: 3, name: 'Versace Glasses' },
-    { img: 'images/glassesVersace4.avif', price: '632', id: 4, name: 'Versace Glasses' },
-    { img: 'images/glassesVersace5.avif', price: '110', id: 5, name: 'Versace Glasses' },
+    { img: 'images/glassesVersace1.avif', price: 230, id: 1, name: 'Versace Glasses' },
+    { img: 'images/glassesVersace2.avif', price: 910, id: 2, name: 'Versace Glasses' },
+    { img: 'images/glassesVersace3.avif', price: 460, id: 3, name: 'Versace Glasses' },
+    { img: 'images/glassesVersace4.avif', price: 632, id: 4, name: 'Versace Glasses' },
+    { img: 'images/glassesVersace5.avif', price: 110, id: 5, name: 'Versace Glasses' },
 ]
 
 let diorGlassesArray = [
-    { img: 'images/glassesDior1.avif', price: '411', id: 1, name: 'Dior Glasses' },
-    { img: 'images/glassesDior2.avif', price: '110', id: 2, name: 'Dior Glasses' },
-    { img: 'images/glassesDior3.webp', price: '506', id: 3, name: 'Dior Glasses' },
-    { img: 'images/glassesDior4.avif', price: '890', id: 4, name: 'Dior Glasses' },
-    { img: 'images/glassesDior5.webp', price: '225', id: 5, name: 'Dior Glasses' },
+    { img: 'images/glassesDior1.avif', price: 411, id: 1, name: 'Dior Glasses' },
+    { img: 'images/glassesDior2.avif', price: 110, id: 2, name: 'Dior Glasses' },
+    { img: 'images/glassesDior3.webp', price: 506, id: 3, name: 'Dior Glasses' },
+    { img: 'images/glassesDior4.avif', price: 890, id: 4, name: 'Dior Glasses' },
+    { img: 'images/glassesDior5.webp', price: 225, id: 5, name: 'Dior Glasses' },
 ]
 
 let pradaGlassesArray = [
-    { img: 'images/glassesPrada1.jpg', price: '349', id: 1, name: 'Prada Glasses' },
-    { img: 'images/glassesPrada2.jpg', price: '898', id: 2, name: 'Prada Glasses' },
-    { img: 'images/glassesPrada3.webp', price: '315', id: 3, name: 'Prada Glasses' },
-    { img: 'images/glassesPrada4.avif', price: '670', id: 4, name: 'Prada Glasses' },
-    { img: 'images/glassesPrada5.avif', price: '937', id: 5, name: 'Prada Glasses' },
+    { img: 'images/glassesPrada1.jpg', price: 349, id: 1, name: 'Prada Glasses' },
+    { img: 'images/glassesPrada2.jpg', price: 898, id: 2, name: 'Prada Glasses' },
+    { img: 'images/glassesPrada3.webp', price: 315, id: 3, name: 'Prada Glasses' },
+    { img: 'images/glassesPrada4.avif', price: 670, id: 4, name: 'Prada Glasses' },
+    { img: 'images/glassesPrada5.avif', price: 937, id: 5, name: 'Prada Glasses' },
 ]
 
 versaceGlassesArray.forEach((item) => {
