@@ -183,11 +183,11 @@
 }
 
 #clearAll-btn-in-bag {
-    width: 20vh;
+    width: 16vh;
     height: 4.5vh;
     border: 1px solid #DC3545;
     margin-top: 1.8rem;
-    margin-left: 1.3rem;
+    margin-left: 13.1rem;
     border-radius: 5px;
     font-size: 1.8rem;
     font-family: 'T1';
@@ -195,6 +195,7 @@
     color: #DC3545;
     cursor: pointer;
     transition: 0.5s;
+    position: absolute;
 }
 
 #clearAll-btn-in-bag:hover {
@@ -207,7 +208,7 @@
     font-size: 2.9rem;
     font-family: 'T1';
     margin-top: 1.1rem;
-    margin-left: 4rem;
+    margin-left: 0.8rem;
 }
 
 #buyBtn-in-bag {
