@@ -118,7 +118,10 @@ function GlassesaddToBagArray(Id, ArrayName) {
     }
     console.log(bagArray);
     addToBag();
+    priceCalculation();
+}
 
+function priceCalculation() {
     let totalPrice = bagArray.reduce((prev, next) => {
         return prev + next.price;
    }, 0);
@@ -152,6 +155,7 @@ function removeGlasses(Id) {
     
     bagArray.splice(findIndex, 1);
     addToBag();
+    priceCalculation();
 }
 
 diorGlassesArray.forEach((item) => {
