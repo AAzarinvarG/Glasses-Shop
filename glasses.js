@@ -137,12 +137,21 @@ function addToBag() {
                                                                 <div id="header-name-input-price-removeIcon-in-bag">
                                                                     <p id="name-glasses-in-bag"> ${item.name} </p>
                                                                     <input type="number" value="1" min="1" max="3">
-                                                                    <ion-icon name="trash-outline"></ion-icon>
+                                                                    <ion-icon onclick="removeGlasses(${item.id})" name="trash-outline"></ion-icon>
                                                                     <p id="price-in-glasses-in-bag"> $${item.price} </p>
                                                                 </div>
                                                             </div>`);
     });
 
+}
+
+function removeGlasses(Id) {
+    let findIndex = bagArray.findIndex((item) => {
+        return item.id == Id;
+    });
+    
+    bagArray.splice(findIndex, 1);
+    addToBag();
 }
 
 diorGlassesArray.forEach((item) => {
