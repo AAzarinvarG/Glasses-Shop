@@ -140,7 +140,7 @@ function addToBag() {
                                                                 </div>
                                                                 <div id="header-name-input-price-removeIcon-in-bag">
                                                                     <p id="name-glasses-in-bag"> ${item.name} </p>
-                                                                    <input id="tes" onchange="change(event.target.value, ${item.id})" type="number" value="1" min="1" max="3">
+                                                                    <input id="tes" onchange="change(event.target.value, ${item.id})" type="number" value="${item.number}" min="1" max="3">
                                                                     <ion-icon onclick="removeGlasses(${item.id})" name="trash-outline"></ion-icon>
                                                                     <p id="price-in-glasses-in-bag"> $${item.price} </p>
                                                                 </div>
