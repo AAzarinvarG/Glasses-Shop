@@ -110,12 +110,12 @@ versaceGlassesArray.forEach((item) => {
 let bagArray = [];
 
 function GlassesaddToBagArray(Id, ArrayName) {
-    let findVersaceGlasses = ArrayName.find((glasses) => {
+    let findGlasses = ArrayName.find((glasses) => {
         return glasses.id == Id;
     });
 
-    if (!bagArray.includes(findVersaceGlasses)) {
-        bagArray.push(findVersaceGlasses);
+    if (!bagArray.includes(findGlasses)) {
+        bagArray.push(findGlasses);
     }
     console.log(bagArray);
     addToBag();
