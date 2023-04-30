@@ -122,9 +122,10 @@ function GlassesaddToBagArray(Id, ArrayName) {
 }
 
 function priceCalculation() {
-    let totalPrice = bagArray.reduce((prev, next) => {
-        return prev + next.price;
-    }, 0);
+    let totalPrice = 0;
+    bagArray.forEach((item) => {
+        totalPrice += item.price * item.number;
+    });
 
     totalPriceElemInBag.innerHTML = `$${totalPrice}`;
 }
@@ -147,6 +148,15 @@ function addToBag() {
 
     });
 
+}
+
+function change(value, Id) {
+    let findGlassesChange = bagArray.find((item) => {
+        return item.id == Id;
+    });
+
+    findGlassesChange.number = Number(value);
+    priceCalculation();
 }
 
 function removeGlasses(Id) {
