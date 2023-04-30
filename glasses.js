@@ -14,6 +14,7 @@ let placeGlassesInBag = $.querySelector('#place-glasses-in-bag');
 let container = $.querySelector('#container');
 let footer = $.querySelector('footer');
 let totalPriceElemInBag = $.querySelector('#total-price-in-bag');
+let btnClearAllInBag = $.querySelector('#clearAll-btn-in-bag');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
@@ -168,6 +169,12 @@ function removeGlasses(Id) {
     addToBag();
     priceCalculation();
 }
+
+btnClearAllInBag.addEventListener('click', () => {
+    bagArray = [];
+    addToBag();
+    priceCalculation();
+});
 
 diorGlassesArray.forEach((item) => {
 
