@@ -41,14 +41,10 @@
 #length-glasses-in-bag {
     position: absolute;
     color: white;
-    margin-left: -0.4rem;
-    font-size: 1.1rem;
-    margin-top: 2.2rem;
-    border: 1px solid white;
-    border-radius: 100%;
-    width: 2vh;
-    height: 2.4vh;
-    padding-left: 4px;
+    margin-left: -0.3rem;
+    font-size: 1.3rem;
+    margin-top: 1.7rem;
+    font-family: T1;
 }
 
 #bagIcon {
