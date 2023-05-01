@@ -15,6 +15,7 @@ let container = $.querySelector('#container');
 let footer = $.querySelector('footer');
 let totalPriceElemInBag = $.querySelector('#total-price-in-bag');
 let btnClearAllInBag = $.querySelector('#clearAll-btn-in-bag');
+let lengthGlassesInBag = $.querySelector('#length-glasses-in-bag');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
@@ -76,19 +77,19 @@ let versaceGlassesArray = [
 ]
 
 let diorGlassesArray = [
-    { img: 'images/glassesDior1.avif', price: 411, id: 1, name: 'Dior Glasses', number: 1 },
-    { img: 'images/glassesDior2.avif', price: 110, id: 2, name: 'Dior Glasses', number: 1 },
-    { img: 'images/glassesDior3.webp', price: 506, id: 3, name: 'Dior Glasses', number: 1 },
-    { img: 'images/glassesDior4.avif', price: 890, id: 4, name: 'Dior Glasses', number: 1 },
-    { img: 'images/glassesDior5.webp', price: 225, id: 5, name: 'Dior Glasses', number: 1 },
+    { img: 'images/glassesDior1.avif', price: 411, id: 6, name: 'Dior Glasses', number: 1 },
+    { img: 'images/glassesDior2.avif', price: 110, id: 7, name: 'Dior Glasses', number: 1 },
+    { img: 'images/glassesDior3.webp', price: 506, id: 8, name: 'Dior Glasses', number: 1 },
+    { img: 'images/glassesDior4.avif', price: 890, id: 9, name: 'Dior Glasses', number: 1 },
+    { img: 'images/glassesDior5.webp', price: 225, id: 10, name: 'Dior Glasses', number: 1 },
 ]
 
 let pradaGlassesArray = [
-    { img: 'images/glassesPrada1.jpg', price: 349, id: 1, name: 'Prada Glasses', number: 1 },
-    { img: 'images/glassesPrada2.jpg', price: 898, id: 2, name: 'Prada Glasses', number: 1 },
-    { img: 'images/glassesPrada3.webp', price: 315, id: 3, name: 'Prada Glasses', number: 1 },
-    { img: 'images/glassesPrada4.avif', price: 670, id: 4, name: 'Prada Glasses', number: 1 },
-    { img: 'images/glassesPrada5.avif', price: 937, id: 5, name: 'Prada Glasses', number: 1 },
+    { img: 'images/glassesPrada1.jpg', price: 349, id: 11, name: 'Prada Glasses', number: 1 },
+    { img: 'images/glassesPrada2.jpg', price: 898, id: 12, name: 'Prada Glasses', number: 1 },
+    { img: 'images/glassesPrada3.webp', price: 315, id: 13, name: 'Prada Glasses', number: 1 },
+    { img: 'images/glassesPrada4.avif', price: 670, id: 14, name: 'Prada Glasses', number: 1 },
+    { img: 'images/glassesPrada5.avif', price: 937, id: 15, name: 'Prada Glasses', number: 1 },
 ]
 
 versaceGlassesArray.forEach((item) => {
@@ -132,6 +133,7 @@ function priceCalculation() {
 }
 
 function addToBag() {
+    lengthGlassesInBag.innerHTML = bagArray.length;
     placeGlassesInBag.innerHTML = '';
 
     bagArray.forEach((item) => {
