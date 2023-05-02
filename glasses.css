@@ -498,6 +498,11 @@
     color: #fff;
 }
 
+#place-model-girl-description {
+    width: 100%;
+    display: flex;
+}
+
 #btn-scrollToTop {
     width: 8vh;
     height: 8vh;
