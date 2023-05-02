@@ -498,9 +498,14 @@
     color: #fff;
 }
 
-#place-model-girl-description {
+#header-model-girl-description {
     width: 100%;
     display: flex;
+}
+
+#place-model-girl {
+    width: 15vh;
+    height: 20vh;
 }
 
 #btn-scrollToTop {
