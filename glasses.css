@@ -506,16 +506,24 @@
 #place-model-girl {
     width: 47vh;
     height: 38vh;
-    background-color: aliceblue;
+    background-color: white;
     margin-top: 4rem;
     margin-bottom: 1rem;
     border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#header-img-model-girl {
+    width: 32vh;
+    height: 40vh;
+    margin-left: 4.2rem;
+    margin-top: -3rem;
+    overflow: hidden;
+    border-radius: 30px;
 }
 
 #img-model-girl {
     width: 32vh;
-    margin-left: 4.2rem;
-    margin-top: -3rem;
     border-radius: 30px;
 }
 
