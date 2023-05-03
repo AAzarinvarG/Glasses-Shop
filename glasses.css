@@ -513,10 +513,18 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+#icon-prev-model-img {
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    margin-top: 9rem;
+    margin-left: 0.8rem;
+}
+
 #header-img-model-girl {
     width: 32vh;
     height: 40vh;
-    margin-left: 4.2rem;
+    margin-left: 4.6rem;
     margin-top: -3rem;
     overflow: hidden;
     border-radius: 30px;
@@ -525,6 +533,14 @@
 #img-model-girl {
     width: 32vh;
     border-radius: 30px;
+}
+
+#icon-next-model-img {
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    margin-top: -12rem;
+    margin-left: 24.6rem;
 }
 
 #description-model-img {
