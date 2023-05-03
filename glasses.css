@@ -158,11 +158,11 @@
     text-align: center;
     width: 100%;
     height: 3vh;
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
     font-family: T1;
 }
 
-#header-name-input-price-removeIcon-in-bag input { 
+#header-name-input-price-removeIcon-in-bag input {
     height: 3vh;
     width: 3.5vh;
     margin-left: 0rem;
@@ -212,7 +212,7 @@
     border-radius: 5px;
     font-size: 1.8rem;
     font-family: 'T1';
-    background-color: rgba(0,0,0, 0);
+    background-color: rgba(0, 0, 0, 0);
     color: #DC3545;
     cursor: pointer;
     transition: 0.5s;
@@ -240,7 +240,7 @@
     font-size: 2rem;
     border: 2px solid #198754;
     border-radius: 5px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     color: #198754;
     font-family: 'T1';
     transition: 0.5s;
@@ -525,6 +525,17 @@
 #img-model-girl {
     width: 32vh;
     border-radius: 30px;
+}
+
+#description-model-img {
+    font-size: 3.2rem;
+    margin-left: 11.8rem;
+    margin-top: 12.6rem;
+    width: 37rem;
+    height: 6vh;
+    text-align: center;
+    font-family: 'T1';
+    text-shadow: 0 21px 18px;
 }
 
 #btn-scrollToTop {
