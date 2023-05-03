@@ -505,9 +505,18 @@
 
 #place-model-girl {
     width: 47vh;
-    height: 40vh;
+    height: 38vh;
     background-color: aliceblue;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+}
+
+#img-model-girl {
+    width: 32vh;
+    margin-left: 4.2rem;
+    margin-top: -3rem;
+    border-radius: 30px;
 }
 
 #btn-scrollToTop {
