@@ -521,18 +521,14 @@
     margin-left: 0.8rem;
 }
 
-#header-img-model-girl {
+#img-model-girl {
     width: 32vh;
     height: 40vh;
     margin-left: 4.6rem;
     margin-top: -3rem;
-    overflow: hidden;
     border-radius: 30px;
-}
-
-#img-model-girl {
-    width: 32vh;
-    border-radius: 30px;
+    background-image: url(model\ image/versaceModel1.avif);
+    background-size: cover;
 }
 
 #icon-next-model-img {
@@ -700,6 +696,35 @@ footer {
     #glasses-prada-price {
         margin: 13px 0.8rem;
     }
+
+    #description-model-img {
+        width: 45rem;
+        margin-left: 6.8rem;
+        font-size: 2.4rem;
+    }
+
+    #place-model-girl {
+        width: 51vh;
+    }
+
+    #icon-prev-model-img {
+        width: 4vh;
+        height: 4vh;
+        margin-top: 9rem;
+        margin-left: -1.3rem;
+    }
+
+    #icon-next-model-img {
+        width: 4vh;
+        height: 4vh;
+        margin-top: -12rem;
+        margin-left: 19.8rem;
+    }
+
+    #img-model-girl {
+        width: 30vh;
+        margin-left: 1.4rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -727,6 +752,27 @@ footer {
 
     #glasses-prada {
         margin: 1rem 1.1rem;
+    }
+
+    #place-model-girl {
+        width: 81vh;
+    }
+
+    #img-model-girl {
+        width: 30.4vh;
+        margin-left: 1.4rem;
+        margin-top: -3.3rem;
+    }
+
+    #icon-next-model-img {
+        margin-top: -11.8rem;
+        margin-left: 19.8rem;
+    }
+
+    #description-model-img {
+        margin-left: 2.6rem;
+        margin-top: 13rem;
+        font-size: 1.8rem;
     }
 
 }
@@ -790,6 +836,30 @@ footer {
 
     #header-AAText-socialMedia {
         background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    #header-model-girl-description {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #place-model-girl {
+        width: 35vh;
+    }
+
+    #description-model-img {
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    #place-model-girl {
+        margin-bottom: 3rem;
+    }
+
+    #title-glasses {
+        margin-top: 2rem;
     }
 
 }
@@ -910,5 +980,29 @@ footer {
         margin-left: 15px;
         width: 4vh;
         height: 4vh;
+    }
+
+    #place-model-girl {
+        width: 28vh;
+    }
+
+    #img-model-girl {
+        width: 23.5vh;
+        margin-left: 1.4rem;
+        margin-top: -3.8rem;
+    }
+
+    #icon-next-model-img {
+        margin-top: 0rem;
+        margin-left: 9.2rem;
+    }
+
+    #icon-prev-model-img {
+        margin-top: 20.2rem;
+        margin-left: 5.6rem;
+    }
+
+    #description-model-img {
+        font-size: 1.5rem;
     }
 }
