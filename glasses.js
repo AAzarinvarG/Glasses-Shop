@@ -17,6 +17,9 @@ let totalPriceElemInBag = $.querySelector('#total-price-in-bag');
 let btnClearAllInBag = $.querySelector('#clearAll-btn-in-bag');
 let lengthGlassesInBag = $.querySelector('#length-glasses-in-bag');
 let placeBasicDescription = $.querySelector('#place-basic-description');
+let imgModelGirl = $.querySelector('#img-model-girl');
+let iconPrevModelImg = $.querySelector('#icon-prev-model-img');
+let iconNextModelImg = $.querySelector('#icon-next-model-img');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
@@ -213,4 +216,36 @@ pradaGlassesArray.forEach((item) => {
                                                             <button onclick="GlassesaddToBagArray(${item.id}, pradaGlassesArray)" id="btn-add-to-basket-prada"> add to basket </button>
                                                         </div>`);
 
+});
+
+let imgModelSrc = [
+    'modelImg/versaceModel1.avif',
+    'modelImg/boyModel.jpg',
+    'modelImg/boyModel2.jpg',
+    'modelImg/girlModel.jpg',
+    'modelImg/pradaModel1.webp',
+    'modelImg/pradaModel2.webp',
+];
+let numberTest = 0;
+
+iconNextModelImg.addEventListener('click', () => {
+
+    if (numberTest == imgModelSrc.length - 1) {
+        numberTest = 0;
+    } else {
+        numberTest++;
+    }
+
+    imgModelGirl.style.backgroundImage = `url(${imgModelSrc[numberTest]})`;
+});
+
+iconPrevModelImg.addEventListener('click', () => {
+
+    if (numberTest == 0) {
+        numberTest = 5;
+    } else {
+        numberTest--;
+    }
+
+    imgModelGirl.style.backgroundImage = `url(${imgModelSrc[numberTest]})`;
 });
