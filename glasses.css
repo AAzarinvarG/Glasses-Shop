@@ -129,6 +129,15 @@
     border-radius: 10px;
 }
 
+#text-empty-bag {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'T1';
+    text-align: center;
+    margin-top: 15rem;
+    text-shadow: 0 1px 50px, 0 13px 5px red;
+}
+
 #glasses-in-bag {
     width: 90%;
     height: 11vh;
