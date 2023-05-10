@@ -12,7 +12,7 @@
 body {
     user-select: none;
 }
-#icon-next-model-img
+
 ::-webkit-scrollbar {
     background: #fff;
     box-shadow: inset 0 0 5px grey;
@@ -310,6 +310,7 @@ body {
     border-radius: 10px;
     background-color: #00000000;
     transition: 1s;
+    cursor: pointer;
 }
 
 #btn-buyGlasses:hover {
@@ -351,6 +352,7 @@ body {
 
 #header-image-glasses-versace {
     overflow: hidden;
+    border-radius: 10px;
 }
 
 #glasses-versace-img {
