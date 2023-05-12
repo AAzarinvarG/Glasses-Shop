@@ -249,3 +249,7 @@ iconPrevModelImg.addEventListener('click', () => {
 
     imgModelGirl.style.backgroundImage = `url(${imgModelSrc[numberTest]})`;
 });
+
+function getLocalstorage() {
+    
+}
