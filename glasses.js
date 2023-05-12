@@ -74,6 +74,8 @@ window.addEventListener('load', () => {
         placeTextDescBtn.style.marginTop = '0';
     }, 2000);
 
+    getLocalstorage();
+
 });
 
 let versaceGlassesArray = [
@@ -126,6 +128,8 @@ function GlassesaddToBagArray(Id, ArrayName) {
     if (!bagArray.includes(findGlasses)) {
         bagArray.push(findGlasses);
     }
+    
+    setLocalstorage();
     console.log(bagArray);
     addToBag();
     priceCalculation();
@@ -168,6 +172,7 @@ function change(value, Id) {
 
     findGlassesChange.number = Number(value);
     priceCalculation();
+    setLocalstorage();
 }
 
 function removeGlasses(Id) {
@@ -178,12 +183,14 @@ function removeGlasses(Id) {
     bagArray.splice(findIndex, 1);
     addToBag();
     priceCalculation();
+    setLocalstorage();
 }
 
 btnClearAllInBag.addEventListener('click', () => {
     bagArray = [];
     addToBag();
     priceCalculation();
+    setLocalstorage();
 });
 
 diorGlassesArray.forEach((item) => {
@@ -251,5 +258,18 @@ iconPrevModelImg.addEventListener('click', () => {
 });
 
 function getLocalstorage() {
-    
+    let getBagArray = JSON.parse(localStorage.getItem('bagArray'));
+
+    if (getBagArray != null) {
+        bagArray = getBagArray;
+        addToBag();
+        priceCalculation();
+    } else {
+        bagArray = [];
+    }
+
+}
+
+function setLocalstorage() {
+    localStorage.setItem('bagArray', JSON.stringify(bagArray));
 }
