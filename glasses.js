@@ -128,7 +128,7 @@ function GlassesaddToBagArray(Id, ArrayName) {
     if (!bagArray.includes(findGlasses)) {
         bagArray.push(findGlasses);
     }
-    
+
     setLocalstorage();
     console.log(bagArray);
     addToBag();
