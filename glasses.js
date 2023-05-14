@@ -20,6 +20,7 @@ let placeBasicDescription = $.querySelector('#place-basic-description');
 let imgModelGirl = $.querySelector('#img-model-girl');
 let iconPrevModelImg = $.querySelector('#icon-prev-model-img');
 let iconNextModelImg = $.querySelector('#icon-next-model-img');
+let textEmptyBag = $.querySelector('#text-empty-bag');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
@@ -75,6 +76,9 @@ window.addEventListener('load', () => {
     }, 2000);
 
     getLocalstorage();
+    if (lengthGlassesInBag.innerHTML == 0) {
+        placeGlassesInBag.insertAdjacentHTML('beforeend', `<p id="text-empty-bag"> Bag Is Empty! </p>`);
+    }
 
 });
 
@@ -184,6 +188,10 @@ function removeGlasses(Id) {
     addToBag();
     priceCalculation();
     setLocalstorage();
+
+    if (lengthGlassesInBag.innerHTML == 0) {
+        placeGlassesInBag.insertAdjacentHTML('beforeend', `<p id="text-empty-bag"> Bag Is Empty! </p>`);
+    }
 }
 
 btnClearAllInBag.addEventListener('click', () => {
@@ -191,6 +199,7 @@ btnClearAllInBag.addEventListener('click', () => {
     addToBag();
     priceCalculation();
     setLocalstorage();
+    placeGlassesInBag.insertAdjacentHTML('beforeend', `<p id="text-empty-bag"> Bag Is Empty! </p>`);
 });
 
 diorGlassesArray.forEach((item) => {
