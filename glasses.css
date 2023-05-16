@@ -576,6 +576,73 @@ body {
     text-shadow: 0 21px 18px;
 }
 
+#header-contact-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+#place-input-name-email-description {
+    width: 50vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#place-input-name-email-description input {
+    width: 40vh;
+    height: 4vh;
+    margin-left: 5vh;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    font-family: 'T1';
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+#place-input-name-email-description textarea {
+    width: 385px;
+    height: 75px;
+    margin-left: 5vh;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    font-family: 'T1';
+    font-size: 1.1rem;
+}
+
+#place-input-name-email-description button {
+    width: 40vh;
+    height: 4vh;
+    margin-left: 5vh;
+    margin-top: 1rem;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: 'T1';
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    background: #fff;
+    transition: 0.8s;
+}
+
+#place-input-name-email-description button:hover {
+    background-color: #FEDB41;
+}
+
+#send-icon-in-btn {
+    position: absolute;
+    margin-left: 16.6rem;
+    margin-top: 14.6rem;
+    width: 2.3vh;
+    height: 2.3vh;
+}
+
 #btn-scrollToTop {
     width: 8vh;
     height: 8vh;
