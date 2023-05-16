@@ -69,7 +69,10 @@ btnScrollToTop.addEventListener('click', () => {
 });
 
 btnBuyGlasses.addEventListener('click', () => {
-    window.scrollTo(0, 965);
+    window.scrollTo({
+        top: 990,
+        behavior: 'smooth' 
+      });
 });
 
 window.addEventListener('load', () => {
@@ -285,3 +288,4 @@ function getLocalstorage() {
 function setLocalstorage() {
     localStorage.setItem('bagArray', JSON.stringify(bagArray));
 }
+
