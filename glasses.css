@@ -328,7 +328,7 @@ body {
     width: 100%;
 }
 
-#title-glasses {
+#title {
     font-size: 3rem;
     text-align: center;
     text-shadow: 0 10px 10px #000;
@@ -884,7 +884,7 @@ footer {
         margin-bottom: 3rem;
     }
 
-    #title-glasses {
+    #title {
         margin-top: 2rem;
     }
 
