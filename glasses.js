@@ -62,7 +62,10 @@ document.addEventListener('scroll', function () {
 });
 
 btnScrollToTop.addEventListener('click', () => {
-    window.scrollTo(0, 0);
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+      });
 });
 
 btnBuyGlasses.addEventListener('click', () => {
