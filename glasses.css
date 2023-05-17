@@ -637,8 +637,8 @@ body {
 
 #send-icon-in-btn {
     position: absolute;
-    margin-left: 16.6rem;
-    margin-top: 14.6rem;
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
     width: 2.3vh;
     height: 2.3vh;
 }
