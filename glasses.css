@@ -836,6 +836,26 @@ footer {
         width: 30vh;
         margin-left: 1.4rem;
     }
+
+    #header-img-send img {
+        margin-left: 18rem;
+    }
+
+    #place-input-name-email-description {
+        align-items: center;
+    }
+
+    #place-input-name-email-description input {
+        margin-left: 0;
+    }
+
+    #place-input-name-email-description textarea {
+        margin-left: 0;
+    }
+
+    #place-input-name-email-description button {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 992px) {
@@ -886,6 +906,26 @@ footer {
         font-size: 1.8rem;
     }
 
+    #header-img-send img {
+        margin-left: 6.9rem;
+    }
+
+    #place-input-name-email-description {
+        width: 51vh;
+    }
+
+    #place-input-name-email-description input {
+        width: 32vh;
+    }
+
+    #place-input-name-email-description textarea {
+        min-width: 310px;
+        max-width: 310px;
+    }
+
+    #place-input-name-email-description button {
+        width: 32.5vh;
+    }
 }
 
 @media (max-width: 768px) {
@@ -973,6 +1013,36 @@ footer {
         margin-top: 2rem;
     }
 
+    #header-contact-us {
+        margin-top: 1rem;
+    }
+
+    #place-input-name-email-description {
+        width: 33vh;
+    }
+
+    #place-input-name-email-description input {
+        width: 27vh;
+    }
+
+    #place-input-name-email-description textarea {
+        min-width: 260px;
+        max-width: 260px;
+    }
+
+    #place-input-name-email-description button {
+        width: 27vh;
+    }
+
+    #header-img-send {
+        width: 10vh;
+    }
+
+    #header-img-send img {
+        width: 10vh;
+        height: 10vh;
+        margin-left: 0rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1046,6 +1116,16 @@ footer {
         margin-left: 7rem;
     }
 
+    #header-contact-us {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #header-img-send img {
+        margin-bottom: 2.5rem;
+        margin-top: -6rem;
+    }
+
 }
 
 @media (max-width: 420px) {
@@ -1115,5 +1195,22 @@ footer {
 
     #description-model-img {
         font-size: 1.5rem;
+    }
+
+    #place-input-name-email-description {
+        width: 28vh;
+    }
+
+    #place-input-name-email-description input {
+        width: 24vh;
+    }
+
+    #place-input-name-email-description textarea {
+        min-width: 230px;
+        max-width: 230px;
+    }
+
+    #place-input-name-email-description button {
+        width: 24vh;
     }
 }
