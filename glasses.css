@@ -579,19 +579,25 @@ body {
 #header-contact-us {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 
 #place-input-name-email-description {
     width: 50vh;
-    height: 40vh;
+    padding: 3rem 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    transition: 0.7s;
 }
 
 #place-input-name-email-description input {
     width: 40vh;
     height: 4vh;
     margin-left: 5vh;
+    margin-bottom: 1.3rem;
     outline: none;
     border: 0;
     border-radius: 10px;
@@ -599,12 +605,12 @@ body {
     padding: 10px;
     font-family: 'T1';
     font-size: 1.1rem;
-    margin-bottom: 0.8rem;
 }
 
 #place-input-name-email-description textarea {
-    width: 385px;
-    height: 75px;
+    min-width: 385px;
+    max-width: 385px;
+    min-height: 80px;
     margin-left: 5vh;
     outline: none;
     border: 0;
@@ -619,7 +625,7 @@ body {
     width: 40vh;
     height: 4vh;
     margin-left: 5vh;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
     outline: none;
     border: 0;
     border-radius: 10px;
@@ -641,6 +647,18 @@ body {
     margin-top: 0.1rem;
     width: 2.3vh;
     height: 2.3vh;
+}
+
+#header-img-send {
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-img-send img {
+    width: 18vh;
+    height: 18vh;
 }
 
 #btn-scrollToTop {
