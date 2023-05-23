@@ -21,6 +21,10 @@ let imgModelGirl = $.querySelector('#img-model-girl');
 let iconPrevModelImg = $.querySelector('#icon-prev-model-img');
 let iconNextModelImg = $.querySelector('#icon-next-model-img');
 let textEmptyBag = $.querySelector('#text-empty-bag');
+let inputName = $.querySelector('#input-name');
+let inputEmail = $.querySelector('#input-email');
+let inputDescription = $.querySelector('#input-description');
+let sendBtn = $.querySelector('#send-btn');
 
 bagIcon.addEventListener('click', () => {
     headerBag.style.left = '3rem';
@@ -64,15 +68,15 @@ document.addEventListener('scroll', function () {
 btnScrollToTop.addEventListener('click', () => {
     window.scrollTo({
         top: 0,
-        behavior: 'smooth' 
-      });
+        behavior: 'smooth'
+    });
 });
 
 btnBuyGlasses.addEventListener('click', () => {
     window.scrollTo({
         top: 990,
-        behavior: 'smooth' 
-      });
+        behavior: 'smooth'
+    });
 });
 
 window.addEventListener('load', () => {
@@ -289,3 +293,19 @@ function setLocalstorage() {
     localStorage.setItem('bagArray', JSON.stringify(bagArray));
 }
 
+sendBtn.addEventListener('click', () => {
+
+    if (inputName.value.trim() != '' && inputEmail.value.trim() != '' && inputDescription.value.trim() != '') {
+        
+        let userInformation = {
+            userName: inputName.value.trim(),
+            userEmail: inputEmail.value.trim(),
+            userDescription: inputDescription.value.trim()
+        }
+
+        inputName.value = '';
+        inputEmail.value = '';
+        inputDescription.value = '';
+    }
+
+});
