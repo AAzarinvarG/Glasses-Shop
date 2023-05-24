@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: T1;
-    src: url(font/Lalezar-Regular.ttf);
+    src: url(../font/Lalezar-Regular.ttf);
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 #header-first-image {
     width: 100%;
     height: 100vh;
-    background-image: url(images/firstPhoto.jpg);
+    background-image: url(../images/firstPhoto.jpg);
     background-size: cover;
     background-position: 0 20%;
     display: flex;
@@ -548,7 +548,7 @@ body {
     margin-left: 4.6rem;
     margin-top: -3rem;
     border-radius: 30px;
-    background-image: url(modelImg/versaceModel1.avif);
+    background-image: url(../modelImg/versaceModel1.avif);
     background-size: cover;
 }
 
@@ -696,7 +696,7 @@ body {
 footer {
     height: 43vh;
     display: flex;
-    background-image: url(images/grilModel.jpg);
+    background-image: url(../images/grilModel.jpg);
     background-size: cover;
     background-position: 0 27%;
 }
