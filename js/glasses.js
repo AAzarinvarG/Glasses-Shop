@@ -296,12 +296,21 @@ function setLocalstorage() {
 sendBtn.addEventListener('click', () => {
 
     if (inputName.value.trim() != '' && inputEmail.value.trim() != '' && inputDescription.value.trim() != '') {
-        
+
         let userInformation = {
             userName: inputName.value.trim(),
             userEmail: inputEmail.value.trim(),
             userDescription: inputDescription.value.trim()
         }
+
+        fetch('https://user-information-2415b-default-rtdb.firebaseio.com/userInformation.json', {
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json',
+            },
+            body: JSON.stringify(userInformation),
+        }).then(res => console.log(res))
+            .catch(err => console.log(err));
 
         inputName.value = '';
         inputEmail.value = '';

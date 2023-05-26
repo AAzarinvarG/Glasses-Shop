@@ -3,3 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: rgb(113, 233, 255);
+    background: linear-gradient(90deg, rgba(113, 233, 255, 1) 0%,
+            rgba(84, 210, 236, 0.3897934173669467) 100%);
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: f1;
+    src: url(../font/NanumGothic-Regular.ttf);
+}
+
+#place-userInformation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#userInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 27rem;
+    height: 8rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(83, 219, 247, 1) 99%);
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    overflow-y: scroll;
+}
+
+#userInformation:hover {
+    background: rgb(83, 219, 247);
+    background: linear-gradient(90deg, rgba(83, 219, 247, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#userInformation::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+#header-name-email-information {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-email {
+    background-color: lightslategray;
+    padding: 0.3rem 0.3rem;
+    border-radius: 3px;
+    box-shadow: inset 0 0 3px;
+    height: 1.8rem;
+}
+
+#user-description {
+    color: black;
+    margin-top: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
