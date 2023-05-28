@@ -57,12 +57,6 @@ document.addEventListener('scroll', function () {
     } else {
         btnScrollToTop.style.right = '-4.8rem';
     }
-
-    if (document.documentElement.scrollTop > 55) {
-        headerPlaceBagIconPersonIcon.style.opacity = '0';
-    } else {
-        headerPlaceBagIconPersonIcon.style.opacity = '1';
-    }
 });
 
 btnScrollToTop.addEventListener('click', () => {
