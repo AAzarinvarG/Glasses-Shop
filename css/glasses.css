@@ -37,7 +37,7 @@ body {
 
 #header-place-bagIcon-personIcon {
     width: 100%;
-    height: 10vh;
+    height: 3rem;
     position: fixed;
     top: 0;
     display: flex;
@@ -46,8 +46,8 @@ body {
 }
 
 #place-bagIcon-personIcon {
-    width: 10vh;
-    height: 4.5vh;
+    width: 6rem;
+    height: 2.6rem;
     background-color: black;
     box-shadow: 0px 13px 3rem rgb(255, 240, 219);
     margin-top: -1px;
@@ -58,14 +58,14 @@ body {
     position: absolute;
     color: white;
     margin-left: 2.4rem;
-    font-size: 1.3rem;
-    margin-top: 0.6rem;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
     font-family: T1;
 }
 
 #bagIcon {
-    width: 3vh;
-    height: 3vh;
+    width: 1.8rem;
+    height: 1.8rem;
     color: white;
     margin-top: 0.3rem;
     margin-left: 0.4rem;
@@ -73,8 +73,8 @@ body {
 }
 
 #personIcon {
-    width: 3vh;
-    height: 3vh;
+    width: 1.8rem;
+    height: 1.8rem;
     color: white;
     margin-top: 0.3rem;
     margin-left: 1.4rem;
@@ -267,8 +267,8 @@ body {
 }
 
 #place-basic-description {
-    width: 55vh;
-    height: 44vh;
+    width: 33rem;
+    height: 26rem;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 5px 10px 3.5rem rgb(255, 240, 219);
     margin-left: 6rem;
@@ -301,9 +301,9 @@ body {
 
 #btn-buyGlasses {
     color: white;
-    width: 50vh;
-    height: 5vh;
-    margin-left: 2.5vh;
+    width: 31rem;
+    height: 3rem;
+    margin-left: 1rem;
     font-size: 1.5rem;
     font-family: T1;
     border: 1px solid white;
