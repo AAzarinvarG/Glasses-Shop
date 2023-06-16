@@ -303,8 +303,8 @@ sendBtn.addEventListener('click', () => {
                 'Content-type': 'application/json',
             },
             body: JSON.stringify(userInformation),
-        }).then(res => console.log(res))
-            .catch(err => console.log(err));
+        }).then(res => console.log('information Post :)'))
+            .catch(err => console.log('Error for Post ):'));
 
         inputName.value = '';
         inputEmail.value = '';

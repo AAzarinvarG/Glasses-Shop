@@ -16,36 +16,125 @@ body {
     src: url(../font/NanumGothic-Regular.ttf);
 }
 
-#place-userInformation {
+#modal {
+    width: 25rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
+    top: 2rem;
+    left: -25.5rem;
+    animation: modal 0.5s linear infinite;
+    transition: 1s;
+}
+
+@keyframes modal {
+    0% {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        
+    }
+    
+    50% {
+        box-shadow: rgba(219, 235, 0, 0.836) 0px 0 8px 0px,
+        rgba(219, 235, 0, 0.836) 0px 0 10px;
+    }
+
+    100% {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+
+#modal ion-icon {
+    animation: iconWarning 1s linear infinite;
+}
+
+@keyframes iconWarning {
+    0% {
+        transform: translateY(0px);
+    }
+    
+    50% {
+        transform: translateY(-5px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+#place-userInformations {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+#parent-userInformation {
+    width: 27rem;
+    height: 7.5rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(83, 219, 247, 1) 99%);
+    margin: 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#parent-userInformation:hover {
+    background: rgb(83, 219, 247);
+    background: linear-gradient(90deg, rgba(83, 219, 247, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 10.3rem;
+}
+
+#parent-userInformation:hover #removeIcon {
+    display: block;
+}
+
 #userInformation {
+    width: 100%;
+    height: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 27rem;
-    height: 8rem;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(83, 219, 247, 1) 99%);
-    padding: 0.5rem 0.5rem;
-    margin: 1rem 1rem;
-    border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 0.5rem 0.5rem 0rem;
+    transition: 0.5s;
     overflow-y: scroll;
-}
-
-#userInformation:hover {
-    background: rgb(83, 219, 247);
-    background: linear-gradient(90deg, rgba(83, 219, 247, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 #userInformation::-webkit-scrollbar {
     width: 0;
     display: none;
+}
+
+#closeIcon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin-left: -3px;
+}
+
+#closeIcon:hover {
+    color: gray;
+}
+
+#removeIcon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+
+#removeIcon:hover {
+    color: red;
 }
 
 #header-name-email-information {
