@@ -792,7 +792,7 @@ footer {
 
     #glasses-prada {
         width: 12rem;
-        height: 25.5rem;
+        height: 27.5rem;
         margin: 1rem 1.2rem;
     }
 
@@ -1150,7 +1150,7 @@ footer {
 }
 
 @media (max-width: 420px) {
-    
+
     #place-basic-description {
         width: 18rem;
         height: 32rem;
