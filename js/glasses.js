@@ -27,12 +27,12 @@ let inputDescription = $.querySelector('#input-description');
 let sendBtn = $.querySelector('#send-btn');
 
 bagIcon.addEventListener('click', () => {
-    headerBag.style.left = '3rem';
+    headerBag.style.left = '2rem';
 
-    if (window.innerWidth < 480) {
-        headerBag.style.left = '1rem';
+    if (window.innerWidth < 420) {
+        headerBag.style.left = '5px';
     } else {
-        headerBag.style.left = '3rem';
+        headerBag.style.left = '2rem';
     }
 
     container.style.display = 'none';
