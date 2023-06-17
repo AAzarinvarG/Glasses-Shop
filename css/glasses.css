@@ -122,15 +122,8 @@ body {
 }
 
 #place-glasses-in-bag::-webkit-scrollbar {
-    background: #fff;
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-    width: 10px;
-}
-
-#place-glasses-in-bag::-webkit-scrollbar-thumb {
-    background-color: gray;
-    border-radius: 10px;
+    width: 0;
+    display: none;
 }
 
 #text-empty-bag {
@@ -252,18 +245,19 @@ body {
     margin-top: -2rem;
     margin-left: 5%;
     font-size: 2rem;
-    border: 2px solid #198754;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0);
-    color: #198754;
+    background-color: #198754;
+    border: 2px solid #198754;
+    color: white;
     font-family: 'T1';
     transition: 0.5s;
     cursor: pointer;
 }
 
 #buyBtn-in-bag:hover {
-    color: white;
-    background-color: #198754;
+    border: 2px solid #198754;
+    color: #198754;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #place-basic-description {
@@ -770,7 +764,7 @@ footer {
 
     #glasses-versace {
         width: 12rem;
-        height: 48vh;
+        height: 28.8rem;
         margin: 1rem 1.2rem;
     }
 
@@ -788,7 +782,7 @@ footer {
 
     #glasses-dior {
         width: 12rem;
-        height: 32.5vh;
+        height: 19.5rem;
         margin: 1rem 1.2rem;
     }
 
@@ -798,7 +792,7 @@ footer {
 
     #glasses-prada {
         width: 12rem;
-        height: 45.8vh;
+        height: 25.5rem;
         margin: 1rem 1.2rem;
     }
 
@@ -821,25 +815,25 @@ footer {
     }
 
     #place-model-girl {
-        width: 51vh;
+        width: 31rem;
     }
 
     #icon-prev-model-img {
-        width: 4vh;
-        height: 4vh;
+        width: 2.5rem;
+        height: 2.5rem;
         margin-top: 9rem;
         margin-left: -1.3rem;
     }
 
     #icon-next-model-img {
-        width: 4vh;
-        height: 4vh;
+        width: 2.5rem;
+        height: 2.5rem;
         margin-top: -12rem;
         margin-left: 19.8rem;
     }
 
     #img-model-girl {
-        width: 30vh;
+        width: 18rem;
         margin-left: 1.4rem;
     }
 
@@ -888,15 +882,16 @@ footer {
     }
 
     #glasses-prada {
+        height: 27.5rem;
         margin: 1rem 1.1rem;
     }
 
     #place-model-girl {
-        width: 81vh;
+        width: 49.2rem;
     }
 
     #img-model-girl {
-        width: 30.4vh;
+        width: 18.1rem;
         margin-left: 1.4rem;
         margin-top: -3.3rem;
     }
@@ -917,11 +912,12 @@ footer {
     }
 
     #place-input-name-email-description {
-        width: 51vh;
+        width: 35rem;
+        margin-top: 1rem;
     }
 
     #place-input-name-email-description input {
-        width: 32vh;
+        width: 19.5rem;
     }
 
     #place-input-name-email-description textarea {
@@ -930,7 +926,7 @@ footer {
     }
 
     #place-input-name-email-description button {
-        width: 32.5vh;
+        width: 19.5rem;
     }
 }
 
@@ -942,7 +938,7 @@ footer {
 
     #glasses-versace {
         width: 13rem;
-        height: 48vh;
+        height: 28.8rem;
         margin: 1rem 1.4rem;
     }
 
@@ -960,7 +956,7 @@ footer {
 
     #glasses-dior {
         width: 13rem;
-        height: 33.6vh;
+        height: 20.2rem;
         margin: 1rem 1.4rem;
     }
 
@@ -970,7 +966,7 @@ footer {
 
     #glasses-prada {
         width: 13rem;
-        height: 45.5vh;
+        height: 27.4rem;
         margin: 1rem 1.4rem;
     }
 
@@ -1001,7 +997,7 @@ footer {
     }
 
     #place-model-girl {
-        width: 35vh;
+        width: 21rem;
     }
 
     #description-model-img {
@@ -1024,11 +1020,11 @@ footer {
     }
 
     #place-input-name-email-description {
-        width: 33vh;
+        width: 19.5rem;
     }
 
     #place-input-name-email-description input {
-        width: 27vh;
+        width: 16.4rem;
     }
 
     #place-input-name-email-description textarea {
@@ -1037,21 +1033,41 @@ footer {
     }
 
     #place-input-name-email-description button {
-        width: 27vh;
+        width: 16.4rem;
     }
 
     #header-img-send {
-        width: 10vh;
+        width: 6rem;
     }
 
     #header-img-send img {
-        width: 10vh;
-        height: 10vh;
+        width: 6rem;
+        height: 6rem;
         margin-left: 0rem;
     }
 }
 
 @media (max-width: 576px) {
+    #header-bag {
+        width: 20rem;
+    }
+
+    #close-header-bag {
+        margin-left: 16.5rem;
+    }
+
+    #clearAll-btn-in-bag {
+        width: 9rem;
+        margin-left: 10rem;
+    }
+
+    #glasses-in-bag img {
+        width: 5.5rem;
+    }
+
+    #price-in-glasses-in-bag {
+        margin-left: 2.8rem;
+    }
 
     #container {
         max-width: 100%;
@@ -1059,7 +1075,7 @@ footer {
 
     #glasses-versace {
         width: 15rem;
-        height: 49.9vh;
+        height: 30rem;
     }
 
     #glasses-versace-img {
@@ -1075,12 +1091,12 @@ footer {
     }
 
     #place-basic-description {
-        width: 41vh;
-        height: 52vh;
+        width: 24.5rem;
+        height: 31rem;
     }
 
     #btn-buyGlasses {
-        width: 36vh;
+        width: 22rem;
     }
 
     #place-dior-glasses {
@@ -1089,7 +1105,7 @@ footer {
 
     #glasses-dior {
         width: 15rem;
-        height: 33.2vh;
+        height: 20rem;
     }
 
     #glasses-dior-img {
@@ -1098,7 +1114,7 @@ footer {
 
     #glasses-prada {
         width: 15rem;
-        height: 48.1vh;
+        height: 29rem;
     }
 
     #btn-add-to-basket-prada {
@@ -1114,12 +1130,12 @@ footer {
     }
 
     #header-AAText-socialMedia {
-        width: 35vh;
-        height: 35vh;
+        width: 21rem;
+        height: 21rem;
     }
 
     #logo-insta {
-        margin-left: 7rem;
+        margin-left: 7.2rem;
     }
 
     #header-contact-us {
@@ -1128,16 +1144,16 @@ footer {
     }
 
     #header-img-send img {
-        margin-bottom: 2.5rem;
-        margin-top: -6rem;
+        margin-bottom: -2.5rem;
     }
 
 }
 
 @media (max-width: 420px) {
+    
     #place-basic-description {
-        width: 30vh;
-        height: 53vh;
+        width: 18rem;
+        height: 32rem;
     }
 
     #welcome-txt {
@@ -1150,7 +1166,7 @@ footer {
     }
 
     #btn-buyGlasses {
-        width: 25vh;
+        width: 15.8rem;
     }
 
     #place-text-desc-btn {
@@ -1158,8 +1174,8 @@ footer {
     }
 
     #header-AAText-socialMedia {
-        width: 25vh;
-        height: 29vh;
+        width: 15rem;
+        height: 16rem;
     }
 
     #header-AAText-socialMedia p {
@@ -1168,34 +1184,34 @@ footer {
     }
 
     #logo-insta {
-        margin-left: 4.7rem;
-        width: 4vh;
-        height: 4vh;
+        margin-left: 4.8rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #logo-whatsapp {
         margin-left: 15px;
-        width: 4vh;
-        height: 4vh;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     #place-model-girl {
-        width: 28vh;
+        width: 16.9rem;
     }
 
     #img-model-girl {
-        width: 23.5vh;
+        width: 14.1rem;
         margin-left: 1.4rem;
         margin-top: -3.8rem;
     }
 
     #icon-next-model-img {
-        margin-top: 0rem;
+        margin-top: 0.3rem;
         margin-left: 9.2rem;
     }
 
     #icon-prev-model-img {
-        margin-top: 20.2rem;
+        margin-top: 20.5rem;
         margin-left: 5.6rem;
     }
 
@@ -1204,11 +1220,11 @@ footer {
     }
 
     #place-input-name-email-description {
-        width: 28vh;
+        width: 17rem;
     }
 
     #place-input-name-email-description input {
-        width: 24vh;
+        width: 14.7rem;
     }
 
     #place-input-name-email-description textarea {
@@ -1217,6 +1233,18 @@ footer {
     }
 
     #place-input-name-email-description button {
-        width: 24vh;
+        width: 14.7rem;
+    }
+
+    #btn-scrollToTop {
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    #iconScrollToTop {
+        width: 3rem;
+        color: black;
     }
 }
