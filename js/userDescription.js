@@ -1,9 +1,7 @@
-// alert('')
-
 let placeUserInformation = document.querySelector('#place-userInformations');
 let modal = document.querySelector('#modal');
 
-getInformation()
+getInformation();
 function getInformation() {
 
     fetch('https://user-information-2415b-default-rtdb.firebaseio.com/userInformation.json') // api firebase
@@ -31,7 +29,7 @@ function getInformation() {
             placeUserInformation.innerHTML = '';
         });
 
-}
+};
 
 function styleLeftForModal1() {
     modal.style.left = '1rem';
